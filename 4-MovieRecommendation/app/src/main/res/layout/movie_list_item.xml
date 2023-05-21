@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/movie_item_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp"
+    android:backgroundTint="@color/movie_card_bg"
+    app:cardCornerRadius="28dp"
+    app:cardElevation="1dp"
+    app:strokeColor="@color/movie_card_border"
+    app:strokeWidth="1dp">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="25dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/loading" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginVertical="12dp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/movie_item_poster"
+            android:layout_width="106dp"
+            android:layout_height="127dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/movie_poster"
+            android:scaleType="center"
+             />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:layout_marginVertical="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/movie_item_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_semibold"
+                android:textColor="@color/black"
+                android:textSize="21sp"
+                tools:text="Wonder Women" />
+
+            <TextView
+                android:id="@+id/movie_item_language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/primary_text_color"
+                android:textSize="16sp"
+                tools:text="Dil : English " />
+
+            <TextView
+                android:id="@+id/movie_item_release_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/primary_text_color"
+                android:textSize="15sp"
+                tools:text="Release Date: June 1" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RatingBar
+                    android:id="@+id/movie_item_ratings"
+                    style="@style/CustomRatingBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="16dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="6dp"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:stepSize="0.1" />
+
+                <TextView
+                    android:id="@+id/movie_item_ratings_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="2dp"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:textColor="@color/primary_text_color"
+                    android:textSize="15sp"
+                    tools:text="3.5" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</com.google.android.material.card.MaterialCardView>
+
+

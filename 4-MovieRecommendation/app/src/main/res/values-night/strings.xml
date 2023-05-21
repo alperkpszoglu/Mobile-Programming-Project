@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="movie_poster">Film Posteri</string>
+    <string name="language">Dil :</string>
+    <string name="home">Anasayfa</string>
+    <string name="trending">Popüler</string>
+    <string name="release_date">Yayınlanma Tarihi :</string>
+    <string name="synopsis">Özet</string>
+    <string name="production_house">Yayın Evi</string>
+    <string name="cast">Oyuncular</string>
+    <string name="review">Yorumlar</string>
+    <string name="similar_movies">Benzer Filmler</string>
+    <string name="favourites">Favoriler</string>
+    <string name="casters">Oyuncular</string>
+    <string name="no_data">Veri Yok</string>
+    <string name="reviews">Yorumlar</string>
+</resources>
