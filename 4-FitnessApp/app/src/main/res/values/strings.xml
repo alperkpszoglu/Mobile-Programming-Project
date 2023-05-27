@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Fitness</string>
+
+    <string name="Open">Aç</string>
+    <string name="Close">Kapat</string>
+    <string name="workout_timer">Egzersiz Zamanlayıcı</string>
+    <string name="profile_creation">Profil Oluşturma</string>
+    <string name="calorie_calculator">Kalori Hesaplayıcı</string>
+    <string name="calorie_tracker">Kalori İzleyici</string>
+    <string name="training_splits">Egzersiz Planları</string>
+    <string name="_60">60</string>
+    <string name="calories_taken">Alınan Kalori = 0 KCAL</string>
+    <string name="calories">Kalori</string>
+    <string name="kcal">KCAL</string>
+    <string name="reset">SIFIRLA</string>
+    <string name="enter_age">Yaşını Gir</string>
+    <string name="enter_height_in_cm">Boyunu Gir</string>
+    <string name="enter_weight_in_kg">Kilonu Gir</string>
+    <string name="enter_gender">Cinsiyet</string>
+
+
+    <array name="gender">
+        <item>
+            Erkek
+        </item>
+        <item>Kadın</item>
+    </array>
+</resources>
